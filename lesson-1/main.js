@@ -22,9 +22,9 @@ const user3 = {
 const user4 = { ...user2, ...user3, ...user };
 console.log(user4);
 
-// const [_g, _b, purple] = user.animals.cats;
-// const { cows, cats } = user.animals;
-// console.log(cows, cats);
+const [_g, _b, purple] = user.animals.cats;
+const { cows, cats } = user.animals;
+console.log(cows, cats);
 
 // // for (let key in user) {
 // //     console.log(`${key}: ${user[key]}`);
@@ -60,3 +60,6 @@ console.log(user4);
 // };
 
 // console.log(Obj.entries(user));
+
+
+
